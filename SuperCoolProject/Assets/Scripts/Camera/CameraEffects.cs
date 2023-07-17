@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-
+//Hola caracola
 /*Allows the camera to shake when the player punches, gets hurt, etc. Put any other custom camera effects in this script!*/
 
 public class CameraEffects : MonoBehaviour
