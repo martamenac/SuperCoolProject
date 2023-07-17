@@ -42,3 +42,4 @@ public class CameraEffects : MonoBehaviour
         multiChannelPerlin.m_FrequencyGain = shake;
     }
 }
+// Modificación Santi
