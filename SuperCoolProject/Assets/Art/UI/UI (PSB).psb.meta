@@ -84,6 +84,8 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
@@ -110,7 +112,6 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
-    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -151,9 +152,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: PauseButton
@@ -175,9 +174,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 109, y: 609}
-    spritePosition: {x: 3557, y: 165}
+    uvTransform: {x: -3448, y: 444}
   - name: IconHeart
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -197,9 +194,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 944, y: 4}
-    spritePosition: {x: 205, y: 1911}
+    uvTransform: {x: 739, y: -1907}
   - name: RoundedRectangle
     originalName: 
     pivot: {x: 0.49999997, y: 0.52798843}
@@ -219,9 +214,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 3, y: 576}
-    spritePosition: {x: 317, y: 1932}
+    uvTransform: {x: -314, y: -1356}
   - name: IconCoin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -241,9 +234,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 944, y: 81}
-    spritePosition: {x: 215, y: 1802}
+    uvTransform: {x: 729, y: -1721}
   - name: IconKey
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -263,9 +254,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 649, y: 300}
-    spritePosition: {x: 3508, y: 1870}
+    uvTransform: {x: -2859, y: -1570}
   - name: Triangle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -285,9 +274,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 649, y: 462}
-    spritePosition: {x: 1847, y: 834}
+    uvTransform: {x: -1198, y: -372}
   - name: Fader
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -307,9 +294,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 300}
-    spritePosition: {x: 467, y: 540}
+    uvTransform: {x: -463, y: -240}
   - name: IconE
     originalName: 
     pivot: {x: 0.5, y: -0.5}
@@ -329,9 +314,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 609}
-    spritePosition: {x: 1871, y: 971}
+    uvTransform: {x: -1867, y: -362}
   - name: IconBlank
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -351,9 +334,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 813, y: 300}
-    spritePosition: {x: 3335, y: 1870}
+    uvTransform: {x: -2522, y: -1570}
   - name: Controls
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -373,9 +354,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 208, y: 174}
+    uvTransform: {x: -204, y: -170}
   - name: PauseOverlay
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -395,14 +374,13 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 813, y: 462}
-    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -410,6 +388,7 @@ ScriptedImporter:
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   platformSettings:
   - name: Default
@@ -433,6 +412,7 @@ ScriptedImporter:
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   skeletonAssetReferenceID: 
+  padding: 4
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -561,6 +541,7 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
+  importFileNodeState: 1
   generateGOHierarchy: 0
   textureAssetName: UI Texture
   prefabAssetName: UI Prefab
